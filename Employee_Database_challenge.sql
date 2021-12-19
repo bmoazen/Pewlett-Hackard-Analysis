@@ -28,5 +28,28 @@ GROUP BY title
 ORDER BY Count(title) DESC
 
 
-
 --Deliverable 2
+-- Employees eligible for the Mentorship Program 
+-- Use only the first employee number occurance
+SELECT DISTINCT ON (n1.emp_no) n1.emp_no, n1.first_name, 
+		n1.last_name, n1.birth_date,
+        n1.from_date, n1.to_date,
+        n1.title
+FROM
+-- Joining the employee, department employee, and title files
+    (SELECT e.emp_no, e.first_name, e.last_name, e.birth_date,
+            de.from_date, de.to_date,
+            t.title
+    FROM employees as e
+    LEFT JOIN dept_emp as de
+    ON (e.emp_no=de.emp_no)
+    LEFT JOIN titles as t
+    ON (e.emp_no=t.emp_no)) as n1
+-- Filter by birth date
+WHERE (n1.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+-- Sort by employee number
+ORDER BY n1.emp_no
+
+
+
+
