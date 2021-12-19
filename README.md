@@ -29,6 +29,6 @@ The situation will be the same for Senior Staff members (~25,000 eligible for re
 For both the engineers and staff positions, significant recruiting will need to be done in order to fill the approximately 35,000 engineering and 32,000 staff positions that will be vacant in the coming years due to retirement.<br />
 
 ### Mentorship Eligibility
-A csv file of the employees eligible for the mentorship program can be found [here](./Data/mentorship_eligibility.csv) and is shown below:
+A csv file of the employees eligible for the mentorship program can be found [here](./Data/mentorship_eligibility.csv) and the data arranged by title is shown below:
 ![](./Figures/mentorship_titles.PNG) <br />
-
+With the need to add tens of thousands of engineers and staff, the low numbers of qualifying mentors is deeply concerning.  The mentorship program would be a vital part of employee retention (critical due to the upcoming "silver tsunami). 
