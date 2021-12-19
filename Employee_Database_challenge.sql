@@ -20,7 +20,6 @@ WHERE to_date='9999-01-01'
 ORDER BY emp_no, to_date DESC;
 
 --Get number of retirees by title
-DROP TABLE retiring_titles
 SELECT COUNT(title),title
 INTO retiring_titles
 FROM unique_titles
@@ -50,6 +49,13 @@ WHERE (n1.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 -- Sort by employee number
 ORDER BY n1.emp_no
 
+
+-- Mentorship Eligibility by Titles
+SELECT COUNT(title),title
+INTO mentorship_titles
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY Count(title) DESC
 
 
 
