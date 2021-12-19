@@ -15,7 +15,7 @@ The company provided the following csv files:<br />
 [salaries.csv](./Data/salaries.csv)<br />
 <br />
 A schematic of the contents and relationships between the given csv files is shown below:
-![""](EmployeeDB.png)
+![[Database Schematic](EmployeeDB.png)](EmployeeDB.png)
 
 EmployeeDB.png
 
