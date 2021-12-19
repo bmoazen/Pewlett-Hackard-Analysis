@@ -31,4 +31,4 @@ For both the engineers and staff positions, significant recruiting will need to 
 ### Mentorship Eligibility
 A csv file of the employees eligible for the mentorship program can be found [here](./Data/mentorship_eligibility.csv) and the data arranged by title is shown below:
 ![](./Figures/mentorship_titles.PNG) <br />
-With the need to add tens of thousands of engineers and staff, the low numbers of qualifying mentors is deeply concerning.  The mentorship program would be a vital part of employee retention (critical due to the upcoming "silver tsunami). 
+With the need to add tens of thousands of engineers and staff, the low numbers of qualifying mentors is deeply concerning.  The mentorship program would be a vital part of employee retention (critical due to the upcoming "silver tsunami) and would need to be properly staffed. Perhaps expanding the eligible age range for the program would allow for proper staffing.
