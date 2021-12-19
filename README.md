@@ -22,16 +22,8 @@ A schematic of the contents and relationships between the given csv files is sho
 ### Retiring Employees by Title
 A csv file of the number of retiring employees arranged by title can be found 
 [here](./Data/retiring_titles.csv) and is shown below:
-![](./Data/retiring_titles.png)
+![](./Data/retiring_titles.PNG)
 
-count,title
-25916,Senior Engineer
-24926,Senior Staff
-9285,Engineer
-7636,Staff
-3603,Technique Leader
-1090,Assistant Engineer
-2,Manager
 
 
 
