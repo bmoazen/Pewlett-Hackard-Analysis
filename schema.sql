@@ -35,13 +35,12 @@ CREATE TABLE salaries (
   PRIMARY KEY (emp_no)
 );
 
-CREATE TABLE title (
+CREATE TABLE titles (
   emp_no INT NOT NULL,
   title varchar NOT NULL,
   from_date DATE NOT NULL,
   to_date DATE NOT NULL,
-  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-  PRIMARY KEY (emp_no)
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
 
 CREATE TABLE dept_employee (
@@ -54,4 +53,5 @@ CREATE TABLE dept_employee (
     -- Note: dept_emp has duplkicate employee numbers
     -- since it makes another listing when an employee 
     -- switches departments
+
 );
