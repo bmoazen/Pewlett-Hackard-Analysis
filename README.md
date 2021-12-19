@@ -5,7 +5,7 @@ The Pewlett Hackard has tasked us with determining the number of current employe
 [pgAdmin4](pgadmin.org)
 [PostgreSQL](www.postgresql.org)
 The company provided the following csv files:<br />
-[employees.csv](employees.csv)
+[employees.csv](./Data/employees.csv)
 
 
 ## Results
