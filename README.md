@@ -19,6 +19,11 @@ A schematic of the contents and relationships between the given csv files is sho
 [Database Schematic](EmployeeDB.png)<br />
 
 ## Results
+### Retiring Employees by Title
+A csv file of the number of retiring employees arranged by title can be found 
+[here](./Data/retiring_titles.csv) and is shown below:
+![](./Data/retiring_titles.csv)
+
 
 
 ## Summary
