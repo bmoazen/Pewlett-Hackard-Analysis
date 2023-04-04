@@ -23,7 +23,7 @@ A schematic of the contents and relationships between the given csv files is sho
 A csv file of the number of retiring employees arranged by title can be found 
 [here](./Data/retiring_titles.csv) and is shown below:
 ![](./Figures/retiring_titles.PNG) <br />
-With so many Senior Engineers eligible for retirement (almost 26,000), it would most likely be prudent to not only look into recruiting new engineers to join the company, but perhaps sepcifically more experienced engineers.  The loss of so many higher-level engineers could prove to be very costly to the company.<br />
+With so many Senior Engineers eligible for retirement (almost 26,000), it would most likely be prudent to not only look into recruiting new engineers to join the company, but perhaps specifically more experienced engineers.  The loss of so many higher-level engineers could prove to be very costly to the company.<br />
 Furthermore, with the possible exit of so many senior engineers, the retention of lower-level engineers will be critical, as they will be the ones to replace those leaving for retirement. Especially with approximagtely 9,000 Engineers also eligible for retirement. Without sufficient retention of those already in the company, a major "brain drain" will occur. <br />
 The situation will be the same for Senior Staff members (~25,000 eligible for retirement). The retention of those below the senior level should be a major focus over the next several years, especially with roughly 7600 regular staff eligible.<br />
 For both the engineers and staff positions, significant recruiting will need to be done in order to fill the approximately 35,000 engineering and 32,000 staff positions that will be vacant in the coming years due to retirement.<br />
